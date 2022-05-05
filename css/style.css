@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+
+body {
+    margin: 0px;
+}
+header{
+    height: 8vh;
+    background-color: rgb(3, 3, 3);
+}
+
+h1 {
+    margin-left: 780px;
+    font-family: cursive;
+    font-size: 25px;
+    color: azure;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+main {
+    height: 92vh;
+}
+
+.mudar-cor {
+	-webkit-animation: mudar-cor 2s linear infinite alternate both;
+	        animation: mudar-cor 2s linear infinite alternate both;
+}
+
+
+ @-webkit-keyframes mudar-cor {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes mudar-cor {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  
